@@ -11,6 +11,7 @@
 		B5EA1E2A292EACEB00817FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA1E29292EACEB00817FA0 /* ContentView.swift */; };
 		B5EA1E2C292EACED00817FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EA1E2B292EACED00817FA0 /* Assets.xcassets */; };
 		B5EA1E2F292EACED00817FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EA1E2E292EACED00817FA0 /* Preview Assets.xcassets */; };
+		B5EA1E36292EB1D100817FA0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA1E35292EB1D100817FA0 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B5EA1E29292EACEB00817FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5EA1E2B292EACED00817FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5EA1E2E292EACED00817FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5EA1E35292EB1D100817FA0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B5EA1E27292EACEB00817FA0 /* SecondSessionApp.swift */,
 				B5EA1E29292EACEB00817FA0 /* ContentView.swift */,
+				B5EA1E37292EB20900817FA0 /* Extension */,
 				B5EA1E2B292EACED00817FA0 /* Assets.xcassets */,
 				B5EA1E2D292EACED00817FA0 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				B5EA1E2E292EACED00817FA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5EA1E37292EB20900817FA0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA1E35292EB1D100817FA0 /* ColorExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EA1E36292EB1D100817FA0 /* ColorExtension.swift in Sources */,
 				B5EA1E2A292EACEB00817FA0 /* ContentView.swift in Sources */,
 				B5EA1E28292EACEB00817FA0 /* SecondSessionApp.swift in Sources */,
 			);
