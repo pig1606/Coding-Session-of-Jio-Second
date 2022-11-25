@@ -11,4 +11,5 @@ import SwiftUI
 extension Color {
     static let primaryPurple = Color("primaryPurple")
     static let secondaryPurple = Color("secondaryPurple")
+    static let thirdPurple = Color("thirdPurple")
 }
