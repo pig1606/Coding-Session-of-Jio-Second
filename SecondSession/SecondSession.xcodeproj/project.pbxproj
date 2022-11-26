@@ -10,6 +10,8 @@
 		B553C26529315E9900F6931B /* AddJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C26429315E9900F6931B /* AddJournalView.swift */; };
 		B553C269293161FD00F6931B /* NavigationBarTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C268293161FD00F6931B /* NavigationBarTitle.swift */; };
 		B553C26B293164F000F6931B /* AddMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C26A293164F000F6931B /* AddMoodView.swift */; };
+		B553C26F293167C400F6931B /* CustomCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C26E293167C400F6931B /* CustomCalendar.swift */; };
+		B553C2712932916F00F6931B /* WeekStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C2702932916F00F6931B /* WeekStore.swift */; };
 		B5EA1E28292EACEB00817FA0 /* SecondSessionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA1E27292EACEB00817FA0 /* SecondSessionApp.swift */; };
 		B5EA1E2A292EACEB00817FA0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA1E29292EACEB00817FA0 /* MainView.swift */; };
 		B5EA1E2C292EACED00817FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EA1E2B292EACED00817FA0 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 		B553C26429315E9900F6931B /* AddJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJournalView.swift; sourceTree = "<group>"; };
 		B553C268293161FD00F6931B /* NavigationBarTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarTitle.swift; sourceTree = "<group>"; };
 		B553C26A293164F000F6931B /* AddMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoodView.swift; sourceTree = "<group>"; };
+		B553C26E293167C400F6931B /* CustomCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendar.swift; sourceTree = "<group>"; };
+		B553C2702932916F00F6931B /* WeekStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStore.swift; sourceTree = "<group>"; };
 		B5EA1E24292EACEB00817FA0 /* SecondSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EA1E27292EACEB00817FA0 /* SecondSessionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSessionApp.swift; sourceTree = "<group>"; };
 		B5EA1E29292EACEB00817FA0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 			children = (
 				B5EA1E27292EACEB00817FA0 /* SecondSessionApp.swift */,
 				B5EA1E29292EACEB00817FA0 /* MainView.swift */,
+				B553C26E293167C400F6931B /* CustomCalendar.swift */,
+				B553C2702932916F00F6931B /* WeekStore.swift */,
 				B553C26A293164F000F6931B /* AddMoodView.swift */,
 				B553C26429315E9900F6931B /* AddJournalView.swift */,
 				B5EA1E37292EB20900817FA0 /* Extension */,
@@ -160,7 +166,9 @@
 				B553C26529315E9900F6931B /* AddJournalView.swift in Sources */,
 				B553C26B293164F000F6931B /* AddMoodView.swift in Sources */,
 				B553C269293161FD00F6931B /* NavigationBarTitle.swift in Sources */,
+				B553C2712932916F00F6931B /* WeekStore.swift in Sources */,
 				B5EA1E36292EB1D100817FA0 /* ColorExtension.swift in Sources */,
+				B553C26F293167C400F6931B /* CustomCalendar.swift in Sources */,
 				B5EA1E2A292EACEB00817FA0 /* MainView.swift in Sources */,
 				B5EA1E28292EACEB00817FA0 /* SecondSessionApp.swift in Sources */,
 			);
