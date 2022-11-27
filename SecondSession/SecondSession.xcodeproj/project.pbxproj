@@ -11,7 +11,8 @@
 		B553C269293161FD00F6931B /* NavigationBarTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C268293161FD00F6931B /* NavigationBarTitle.swift */; };
 		B553C26B293164F000F6931B /* AddMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C26A293164F000F6931B /* AddMoodView.swift */; };
 		B553C26F293167C400F6931B /* CustomCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C26E293167C400F6931B /* CustomCalendar.swift */; };
-		B553C2712932916F00F6931B /* WeekStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C2702932916F00F6931B /* WeekStore.swift */; };
+		B553C27429338BB100F6931B /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C27329338BB100F6931B /* Journal.swift */; };
+		B553C27729338EBB00F6931B /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553C27629338EBB00F6931B /* JournalViewModel.swift */; };
 		B5EA1E28292EACEB00817FA0 /* SecondSessionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA1E27292EACEB00817FA0 /* SecondSessionApp.swift */; };
 		B5EA1E2A292EACEB00817FA0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA1E29292EACEB00817FA0 /* MainView.swift */; };
 		B5EA1E2C292EACED00817FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EA1E2B292EACED00817FA0 /* Assets.xcassets */; };
@@ -24,7 +25,8 @@
 		B553C268293161FD00F6931B /* NavigationBarTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarTitle.swift; sourceTree = "<group>"; };
 		B553C26A293164F000F6931B /* AddMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoodView.swift; sourceTree = "<group>"; };
 		B553C26E293167C400F6931B /* CustomCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendar.swift; sourceTree = "<group>"; };
-		B553C2702932916F00F6931B /* WeekStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStore.swift; sourceTree = "<group>"; };
+		B553C27329338BB100F6931B /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		B553C27629338EBB00F6931B /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
 		B5EA1E24292EACEB00817FA0 /* SecondSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EA1E27292EACEB00817FA0 /* SecondSessionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSessionApp.swift; sourceTree = "<group>"; };
 		B5EA1E29292EACEB00817FA0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B553C27229338B1200F6931B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B553C27329338BB100F6931B /* Journal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B553C27529338E9900F6931B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B553C27629338EBB00F6931B /* JournalViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B5EA1E1B292EACEB00817FA0 = {
 			isa = PBXGroup;
 			children = (
@@ -66,9 +84,10 @@
 				B5EA1E27292EACEB00817FA0 /* SecondSessionApp.swift */,
 				B5EA1E29292EACEB00817FA0 /* MainView.swift */,
 				B553C26E293167C400F6931B /* CustomCalendar.swift */,
-				B553C2702932916F00F6931B /* WeekStore.swift */,
 				B553C26A293164F000F6931B /* AddMoodView.swift */,
 				B553C26429315E9900F6931B /* AddJournalView.swift */,
+				B553C27229338B1200F6931B /* Model */,
+				B553C27529338E9900F6931B /* ViewModel */,
 				B5EA1E37292EB20900817FA0 /* Extension */,
 				B5EA1E2B292EACED00817FA0 /* Assets.xcassets */,
 				B5EA1E2D292EACED00817FA0 /* Preview Content */,
@@ -163,10 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B553C27729338EBB00F6931B /* JournalViewModel.swift in Sources */,
 				B553C26529315E9900F6931B /* AddJournalView.swift in Sources */,
 				B553C26B293164F000F6931B /* AddMoodView.swift in Sources */,
 				B553C269293161FD00F6931B /* NavigationBarTitle.swift in Sources */,
-				B553C2712932916F00F6931B /* WeekStore.swift in Sources */,
+				B553C27429338BB100F6931B /* Journal.swift in Sources */,
 				B5EA1E36292EB1D100817FA0 /* ColorExtension.swift in Sources */,
 				B553C26F293167C400F6931B /* CustomCalendar.swift in Sources */,
 				B5EA1E2A292EACEB00817FA0 /* MainView.swift in Sources */,

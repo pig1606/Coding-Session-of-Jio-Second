@@ -30,6 +30,8 @@ struct MainView: View {
                         Image(systemName: "pencil")
                     })
                     .accentColor(.white)
+                
+                CustomCalendar()
             }
             }
     }
