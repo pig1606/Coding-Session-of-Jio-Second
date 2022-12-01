@@ -12,7 +12,6 @@ struct CustomCalendar: View {
     @Namespace var animation
     
     var body: some View {
-        
         ZStack {
             Color.primaryPurple
                 .ignoresSafeArea()

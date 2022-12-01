@@ -5,7 +5,6 @@
 //  Created by Minyoung Kim on 2022/11/27.
 //
 
-import Foundation
 import SwiftUI
 
 // Journal Model
