@@ -26,6 +26,31 @@ struct AddJournalView: View {
                             }
                         }
                     }
+                
+                VStack (spacing: 10){
+                    Text("🤬")
+                        .font(.system(size: 40))
+                    
+                    Text("You're")
+                        .foregroundColor(.white)
+                        .font(.system(size: 24, weight: .regular))
+                    
+                    RoundedRectangle(cornerRadius: 10)
+                        .foregroundColor(.tertiaryPurple)
+                        .frame(width: 350, height: 395)
+                        .padding(.top, 50)
+                    
+                    Button {
+                        
+                    } label: {
+                        RoundedRectangle(cornerRadius: 10)
+                            .frame(width: 350, height: 64)
+                            .foregroundColor(.tertiaryPurple)
+                            .overlay(Text("Done")
+                                .foregroundColor(.white)
+                                .font(.system(size:24, weight: .bold)))
+                    }
+                }
             }
         }
     }
