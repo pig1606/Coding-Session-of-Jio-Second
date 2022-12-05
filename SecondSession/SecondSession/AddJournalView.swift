@@ -11,21 +11,9 @@ struct AddJournalView: View {
     var body: some View {
         
         NavigationView {
-            ZStack{
+            ZStack (alignment: .bottom){
                 Color.primaryPurple
                     .ignoresSafeArea()
-                
-                Text("")
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            VStack {
-                                Text("Add new journal")
-                                    .font(.system(size: 17, weight: .semibold))
-                                    .foregroundColor(.white)
-                            }
-                        }
-                    }
                 
                 VStack (spacing: 10){
                     Text("🤬")
@@ -50,6 +38,14 @@ struct AddJournalView: View {
                                 .foregroundColor(.white)
                                 .font(.system(size:24, weight: .bold)))
                     }
+                }
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("Add new journal")
+                        .font(.system(size: 17, weight: .semibold))
+                        .foregroundColor(.white)
                 }
             }
         }

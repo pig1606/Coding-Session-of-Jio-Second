@@ -13,23 +13,11 @@ struct AddMoodView: View {
     
     var body: some View {
         NavigationView {
-            ZStack {
+            ZStack(alignment: .bottom) {
                 Color.primaryPurple
                     .ignoresSafeArea()
                 
-                Text("")
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            VStack {
-                                Text("Add new mood")
-                                    .font(.system(size: 17, weight: .semibold))
-                                    .foregroundColor(.white)
-                            }
-                        }
-                    }
-                
-                VStack (spacing: 100) {
+                VStack(spacing: 100) {
                     LazyVGrid(columns: columns, spacing: 30) {
                         ForEach(emoji, id: \.self) { item in
                             Text(item)
@@ -47,9 +35,19 @@ struct AddMoodView: View {
                             .foregroundColor(.tertiaryPurple)
                             .overlay(Text("Continue")
                                 .foregroundColor(.white)
-                                .font(.system(size:24, weight: .bold)))
-                            .offset(y: 47)
+                                .font(.system(size: 24, weight: .bold)))
+//                            .offset(y: 47)
+                            .contentShape(Rectangle())
                     }
+                }
+            }
+            .navigationTitle("")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("Add new mood")
+                        .font(.system(size: 17, weight: .semibold))
+                        .foregroundColor(.white)
                 }
             }
         }

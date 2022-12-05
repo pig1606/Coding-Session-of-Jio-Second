@@ -11,29 +11,29 @@ struct MainView: View {
     
     var body: some View {
         NavigationView {
-            ZStack{
+            ZStack(alignment: .top) {
                 Color.primaryPurple
                     .ignoresSafeArea()
-                
-                Text("")
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            VStack {
-                                Text("MyMoo")
-                                    .font(.system(size: 17, weight: .semibold))
-                                    .foregroundColor(.white)
-                            }
-                        }
-                    }
-                    .navigationBarItems(trailing: NavigationLink(destination: AddJournalView()) {
-                        Image(systemName: "pencil")
-                    })
-                    .accentColor(.white)
-                
-                CustomCalendar()
+                VStack(spacing: 0) {
+                    CustomCalendar()
+                    
+                    Spacer()
+                }
             }
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("")
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("MyMoo")
+                        .font(.system(size: 17, weight: .semibold))
+                        .foregroundColor(.white)
+                }
+                ToolbarItem(placement: .principal) {
+                    Image(systemName: "pencil")
+                        .foregroundColor(.white)
+                }
             }
+        }
     }
 }
 
